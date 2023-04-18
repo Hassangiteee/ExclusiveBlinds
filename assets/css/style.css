@@ -1,0 +1,386 @@
+h1, h2, h3, h4, h5, h6, p , a 
+{
+	margin-bottom: 0px
+}
+p {
+    font-size: 17px;
+    font-family: Rboto, sans-serif;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+h2.title {
+    position: relative;
+    padding-bottom: 32px;
+}
+ h2.title:after {
+    content: "";
+    position: absolute;
+    width: 81px;
+    height: 2px;
+    background-color: #b90134;
+    bottom: -7px;
+    left: 0;
+    border-radius: 25px;
+}
+
+h2.title:before {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 19px;
+    border-radius: 3px;
+    background-color: #b90134;
+    bottom: -15px;
+    left: 31px;
+    z-index: 9;
+    border: 5px solid #fff;
+}
+
+p.desc
+{
+    padding-top: 50px;
+}
+
+.flex_center
+{
+	display: flex;
+	align-items: center;
+
+}
+section.ExclusiveBlinds_header .header_box
+{
+	justify-content: space-between;
+}
+.container
+{
+	width: 100%;
+	flex: 0 0 66.6%;
+	max-width: 66.6%;
+}
+section.ExclusiveBlinds_header .logo_menu img {
+    width: 100%;
+    max-width: 181px;
+}
+section.ExclusiveBlinds_header .contact_header_menu {
+    display: flex;
+    align-items: flex-start;
+}
+section.ExclusiveBlinds_header .EB_menu.flex_start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.ExclusiveBlinds_header .icon img {
+  
+    height: 22px;
+    margin-right: 19px;
+}
+section.ExclusiveBlinds_header .title h2
+{
+	padding-bottom: 17px;
+}
+section.ExclusiveBlinds_header .title h2 a {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+
+}
+section.ExclusiveBlinds_header .title h2 
+{
+	line-height: 0;
+}
+section.ExclusiveBlinds_header {
+    padding: 36px 0px 26px 0px;
+    border-bottom: 1px solid #e7e7e7;
+}
+section.ExclusiveBlinds_header .contact_header_menu:not(:last-child)
+{
+	margin-right: 50px;
+}
+section.EB-navbar a {
+  text-decoration: none;
+}
+
+section.EB-navbar nav {
+	font-family: monospace;
+}
+
+section.EB-navbar ul {
+  background: darkorange;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	z-index: 9999;
+}
+
+section.EB-navbar li {
+	color: #000;
+  
+	display: block;
+	float: left;
+padding: 7px 18px;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+section.EB-navbar li a {
+ color: #000;
+    font-size: 17px;
+    font-family: FuturaStd Heavy, sans-serif;
+    font-weight: 700;
+    	
+}
+section.EB-navbar ul.main_menu_box li:first-child
+{
+	background-color: #ff0047;
+	box-shadow: 2px 3px 0px 0px #000;
+
+}
+section.EB-navbar ul li:first-child a
+{
+color: #fff;
+}
+
+section.EB-navbar li:hover {
+	background: #ff0047;
+	cursor: pointer;
+	box-shadow: 2px 3px 0px 0px #000;
+}
+section.EB-navbar li:hover > a 
+{
+	color: #fff;
+}
+
+section.EB-navbar ul li ul {
+	background: orange;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 10rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0rem;
+	left: 0;
+  display: none;
+}
+
+section.EB-navbar ul li:hover > ul,
+section.EB-navbar ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+section.EB-navbar ul li ul li {
+	clear: both;
+  width: 100%;
+}
+
+section.EB-navbar ul li:not(:last-child)
+{
+	margin-right: 42px
+}
+section.EB-navbar {
+    padding: 29px 0px;
+}
+section.EB-navbar  .appointment_button button {
+    background-color: #ff0047;
+    box-shadow: 2px 3px 0px 0px #000;
+    color: #fff;
+    font-size: 17px;
+    font-family: FuturaStd Heavy, sans-serif;
+    font-weight: 700;
+    border:0px;
+        padding: 7px 18px;
+}
+section.EB-navbar .flex_menu_with_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.EB_Slider .content_on_banner_first {
+    background-color: #ff0047;
+    width: 100%;
+    max-width: fit-content;
+    position: absolute;
+    top: 19%;
+    left: 14%;
+    padding: 89px 100px;
+    box-shadow: 13px 15px 0px 0px rgb(185, 1, 52);
+}
+section.EB_Slider .content_on_banner_second {
+    width: 100%;
+    max-width: fit-content;
+    position: absolute;
+    top: 19%;
+    left: 40%;
+    text-align: center;
+}
+section.EB_Slider .content_on_banner_third {
+    width: 100%;
+    max-width: fit-content;
+    position: absolute;
+    top: 19%;
+    left: 20%;
+    
+}
+section.EB_Slider h2.title_banner {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-family: FuturaStd Heavy, sans-serif;
+    line-height: 4rem;
+}
+section.EB_Slider p.des_banner {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    padding: 35px 0px;
+}
+button.button_banner {
+    padding: 17px 33px;
+    border: 0px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: rgb(185, 1, 52) 3px 3px 0px 0px !important;
+     font-family: FuturaStd Heavy, sans-serif;
+}
+
+
+section.EB_Slider .owl-dots {
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+}
+
+section.EB_Slider  .owl-theme .owl-dots .owl-dot span
+{
+	border: 3px solid #ff0047;
+	width: 20px;
+    height: 20px;
+
+}
+section.welcome_section h2.title {
+    font-size: 44px;
+    font-weight: 600;
+       font-family: FuturaStd Heavy, sans-serif;
+}
+
+section.welcome_section {
+    background-image: url("assets/images/welcome_bg.png");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.welcome_section .flex_welcome {
+    display: flex;
+    align-items: flex-start;
+}
+section.welcome_section p.desc
+{
+    padding-bottom: 60px;
+}
+section.welcome_section .welcome_content {
+    padding: 0px 0px 0px 45px;
+}
+
+section.welcome_section {
+    padding: 123px 112px 85px 30px;
+}
+
+section.welcome_section  .random-container {
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+section.welcome_section .welcome_left_content {
+    background-color: rgb(255, 0, 71);
+    padding: 100px 80px;
+    position: absolute;
+    left: -32px;
+    top: -37px;
+    width: 100%;
+    max-width: 30%;
+}
+section.welcome_section .flex_welcome
+{
+    position: relative;
+}
+section.welcome_section .welcome_left_content h2 {
+    font-family: 'Futura Std' !important;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+}
+img.welcome_2_img {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: -8px;
+    max-width: 51%;
+}
+.image_welcome {
+    position: relative;
+}
+img.welcome_3_img {
+    position: absolute;
+    right: 289px;
+    bottom: -8px;
+    width: 100%;
+    max-width: 55%;
+}
+
+@media (max-width: 1400px)
+{
+    .container
+    {
+            width: 100%;
+    flex: 0 0 88.6%;
+    max-width: 88.6%;
+    }
+    section.welcome_section .welcome_left_content
+    {
+        max-width: 45%;
+    }
+    section.welcome_section {
+    padding: 123px 28px 85px 28px;
+}
+section.EB_Slider .content_on_banner_first
+{
+    padding: 45px 50px;
+}
+section.welcome_section .random-container
+{
+    flex: 0 0 90%;
+    max-width: 90%;
+}
+}
+
+
+@media (max-width: 1300px)
+{
+    .container
+    {
+            width: 100%;
+    flex: 0 0 80.6%;
+    max-width: 80.6%;
+    }
+    section.EB-navbar ul li:not(:last-child) {
+    margin-right: 19px;
+}
+section.EB-navbar li a
+{
+    font-size: 15px;
+}
+}
